@@ -1,5 +1,5 @@
 <template>
-  <Blurhash
+  <BlurhashCanvas
     hash="LEHV6nWB2yk8pyo0adR*.7kCMdnj"
     :width="400"
     :height="400"
@@ -8,11 +8,11 @@
 </template>
 
 <script>
-import Blurhash from "./Blurhash.vue";
+import BlurhashCanvas from "./BlurhashCanvas.vue";
 
 export default {
   components: {
-    Blurhash,
+    BlurhashCanvas,
   },
 };
 </script>

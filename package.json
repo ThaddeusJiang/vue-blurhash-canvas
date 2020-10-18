@@ -1,12 +1,12 @@
 {
-  "name": "vue-blurhash",
+  "name": "vue-blurhash-canvas",
   "version": "0.1.0",
   "private": false,
-  "main": "dist/vue-blurhash.umd.js",
-  "unpkg": "dist/vue-blurhash.umd.min.js",
+  "main": "dist/vue-blurhash-canvas.umd.js",
+  "unpkg": "dist/vue-blurhash-canvas.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "rm -rf ./dest && vue-cli-service build --target lib --name vue-blurhash src/Blurhash.vue",
+    "build": "rm -rf ./dest && vue-cli-service build --target lib --name vue-blurhash-canvas src/BlurhashCanvas.vue",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

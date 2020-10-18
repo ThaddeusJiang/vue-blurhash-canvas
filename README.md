@@ -1,10 +1,10 @@
-# vue-blurhash
+# vue-blurhash-canvas
 
 > React components for using the [blurhash algorithm](https://blurha.sh) in your React projects
 
 ## Install
 ```
-yarn add blurhash vue-blurhash
+yarn add blurhash vue-blurhash-canvas
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ yarn add blurhash vue-blurhash
 </template>
 
 <script>
-import Blurhash from "vue-blurhash";
+import Blurhash from "vue-blurhash-canvas";
 
 export default {
   components: {
