@@ -1,26 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Blurhash
+    hash="LEHV6nWB2yk8pyo0adR*.7kCMdnj"
+    :width="400"
+    :height="400"
+    :punch="1"
+  />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Blurhash from "./components/Blurhash.vue";
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    Blurhash,
+  },
+};
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
