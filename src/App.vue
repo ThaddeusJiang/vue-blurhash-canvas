@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Blurhash from "./components/Blurhash.vue";
+import Blurhash from "./Blurhash.vue";
 
 export default {
   components: {
