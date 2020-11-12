@@ -41,3 +41,10 @@ export default {
 | `resolutionY` (int)      | The Y-axis resolution in which the decoded image will be rendered at. Recommended min. 32px. Large sizes (>128px) will greatly decrease rendering performance. (Default: 32) |
 | `punch` (int)            | Controls the "punch" value (~contrast) of the blurhash decoding algorithm. (Default: 1)                                                                                      |
 
+## Contribute
+
+```sh
+$ yarn
+$ yarn add --peer vue blurhash core-js
+$ yarn dev
+```
