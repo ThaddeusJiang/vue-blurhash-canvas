@@ -1,6 +1,6 @@
 # vue-blurhash-canvas
 
-> React components for using the [blurhash algorithm](https://blurha.sh) in your React projects
+> Vue components for using the [blurhash algorithm](https://blurha.sh) in your Vue projects
 
 ## Install
 ```
